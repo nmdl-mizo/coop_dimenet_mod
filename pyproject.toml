@@ -1,0 +1,49 @@
+[project]
+name = "coop_dimenet_mod"
+authors = [
+    {name = "Riuki Nakagawa"},
+    {name = "Kiyou Shibata"},
+    {name = "Izumi Takahara"},
+    {name = "Teruyasu Mizoguchi"},
+]
+version = "1.0.0"
+description = "code of a graph neural network for predicting overlap population"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.1.2",
+    "scipy>=1.15.1",
+    "torch",
+    "torch-cluster>=1.6.3",
+    "torch-scatter>=2.1.2",
+    "torch-sparse>=0.6.18",
+    "torch_geometric",
+]
+
+[tool.uv]
+package = true
+extra-index-url = [
+    "https://download.pytorch.org/whl/cu124",
+]
+find-links = [
+    "https://data.pyg.org/whl/torch-2.5.0+cu124.html",
+]
+
+[dependency-groups]
+dev = [
+    "ase>=3.24.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "coop_dimenet_mod/*.py",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["coop_dimenet_mod"]
