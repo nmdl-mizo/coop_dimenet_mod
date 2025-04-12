@@ -87,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 1. V. Blum et al., Comp. Phys. Commun. 180, 2175-2196 (2009)
 1. I. Takahara, K. Shibata, and T. Mizoguchi, Modelling Simul. Mater. Sci. Eng. 32, 055028 (2024)
 1. N. Riuki, I. Takahara, K. Shibata, and T. Mizoguchi, Zenodo (2025) http://doi.org/10.5281/zenodo.14695630
-1. N. Riuki, I. Takahara, K. Shibata, and T. Mizoguchi, submitted (2025)
+1. N. Riuki, I. Takahara, K. Shibata, and T. Mizoguchi, Chemistry Letters, Volume 54, Issue 3, March 2025, upaf038, [ChemLett](https://doi.org/10.1093/chemle/upaf038) 
